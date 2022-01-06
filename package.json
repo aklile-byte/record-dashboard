@@ -1,0 +1,39 @@
+{
+  "name": "record-dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "1.12.1",
+    "@microsoft/sp-lodash-subset": "1.12.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.12.1",
+    "@microsoft/sp-property-pane": "1.12.1",
+    "@microsoft/sp-webpart-base": "1.12.1",
+    "@pnp/sp": "^2.11.0",
+    "office-ui-fabric-react": "7.156.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-hook-form": "^6.0.0",
+    "react-tabs": "^3.2.3",
+    "react-toastify": "^8.1.0",
+    "sp-pnp-js": "^3.0.10"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-3.7": "0.2.3",
+    "@microsoft/sp-build-web": "1.12.1",
+    "@microsoft/sp-module-interfaces": "1.12.1",
+    "@microsoft/sp-tslint-rules": "1.12.1",
+    "@microsoft/sp-webpart-workbench": "1.12.1",
+    "@types/jquery": "^2.0.58",
+    "@types/react": "16.9.36",
+    "@types/react-dom": "16.9.8",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "~5.2.2",
+    "gulp": "~4.0.2"
+  }
+}
